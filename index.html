@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/18efe61e5d.js"
+    crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <title>Formulaire </title>
+</head>
+<body>
+
+
+    
+    <div class="Formulaire">
+        <h1>Form validation</h1>
+
+    <form>
+        <div class="input-group">
+        <label>lastname</label>
+        <input type="text" id="lastname">
+        <p id="error1"></p>
+        
+        </div>
+        
+        
+        
+        <div class="input-group">
+        <label>firstname</label>
+        <input type="text" id="firstname" >
+        <p id="error2"></p>
+        
+        
+        
+        </div>
+        
+        <div class="input-group">
+        <label>Email</label>
+        <input type="text" id="Email" >
+        <p id="error3"></p>
+
+
+        
+        </div>
+
+        <div class="input-group">
+        <label>phone Number</label>
+        <input type="text" id="phone">
+        <p id="error4"></p>
+        
+
+        </div>
+
+    
+        <div class="radio-1">
+            <span >Gender</span>
+        <label for=""> Female </label>
+        <input type="radio" name="gender" id="dot-1" >
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="dot-2"  >
+        <p id="error5"></p>
+    </div>
+
+    <div class="radio-2">
+        <div>
+        <label>DW101</label>
+        <input type="radio" name="g" id="dw1">
+        </div>
+
+    <div>
+        <label for="">DW102</label>
+        <input type="radio" name="g" id="dw2">
+    </div>
+
+    <div>
+        <label for="">DW103</label>
+        <input type="radio" name="g" id="dw3">
+    </div>
+
+    <div>
+        <label for="">DW104</label>
+        <input type="radio" name="g" id="dw4">
+    </div>
+
+    <div>
+        <label for="">DW105</label>
+        <input type="radio" name="g" id="dw5">
+        <p id="error6"></p>
+    </div>
+
+   
+    </div>
+
+    <label id="lable" for="">Club</label>
+    <select type="text" value="" name="Sujet" multiple id="select" onchange="selct()">
+    <option></option>
+    <option>Informatique</option>
+    <option>Robotique</option>
+    <option>Jeu d'échecs</option>
+    <option>Musique</option>
+    <option>Foot</option>
+    <option>Théatre</option>
+</select>
+<p id="error7"></p>
+
+            <button type="button" onclick="check()" >Register</button>
+            
+                
+</form>
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
